@@ -3,7 +3,9 @@
 /* eslint-env es6 */
 
 /** Config */
-const { apiKey, apiSecret } = require('../config');
+//const { apiKey, apiSecret } = require('../config');
+const apiKey = process.env.API_KEY;
+const apiSecret = process.env.API_SECRET;
 
 /** Imports */
 const R = require('ramda');
